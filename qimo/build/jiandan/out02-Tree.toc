@@ -1,0 +1,42 @@
+('D:\\python study\\crossin\\qimo\\build\\jiandan\\setuptools-27.2.0-py3.5.egg',
+ None,
+ {'*.so', '*.pyc', '*.py', 'EGG-INFO', '*.pyo', '*.pyd'},
+ 'DATA',
+ [('setuptools\\cli-32.exe',
+   'D:\\python '
+   'study\\crossin\\qimo\\build\\jiandan\\setuptools-27.2.0-py3.5.egg\\setuptools\\cli-32.exe',
+   'DATA'),
+  ('setuptools\\cli-64.exe',
+   'D:\\python '
+   'study\\crossin\\qimo\\build\\jiandan\\setuptools-27.2.0-py3.5.egg\\setuptools\\cli-64.exe',
+   'DATA'),
+  ('setuptools\\cli.exe',
+   'D:\\python '
+   'study\\crossin\\qimo\\build\\jiandan\\setuptools-27.2.0-py3.5.egg\\setuptools\\cli.exe',
+   'DATA'),
+  ('setuptools\\gui-32.exe',
+   'D:\\python '
+   'study\\crossin\\qimo\\build\\jiandan\\setuptools-27.2.0-py3.5.egg\\setuptools\\gui-32.exe',
+   'DATA'),
+  ('setuptools\\gui-64.exe',
+   'D:\\python '
+   'study\\crossin\\qimo\\build\\jiandan\\setuptools-27.2.0-py3.5.egg\\setuptools\\gui-64.exe',
+   'DATA'),
+  ('setuptools\\gui.exe',
+   'D:\\python '
+   'study\\crossin\\qimo\\build\\jiandan\\setuptools-27.2.0-py3.5.egg\\setuptools\\gui.exe',
+   'DATA'),
+  ('setuptools\\script (dev).tmpl',
+   'D:\\python '
+   'study\\crossin\\qimo\\build\\jiandan\\setuptools-27.2.0-py3.5.egg\\setuptools\\script '
+   '(dev).tmpl',
+   'DATA'),
+  ('setuptools\\script.tmpl',
+   'D:\\python '
+   'study\\crossin\\qimo\\build\\jiandan\\setuptools-27.2.0-py3.5.egg\\setuptools\\script.tmpl',
+   'DATA'),
+  ('setuptools\\command\\launcher manifest.xml',
+   'D:\\python '
+   'study\\crossin\\qimo\\build\\jiandan\\setuptools-27.2.0-py3.5.egg\\setuptools\\command\\launcher '
+   'manifest.xml',
+   'DATA')])
