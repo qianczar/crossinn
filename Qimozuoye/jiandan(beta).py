@@ -20,7 +20,7 @@ def get_pic(page):
         id = list(set(id1))  # 去除重复
         data = [] #【1.id，2.图片连接，3.点赞数，4.反对数】
         for i in id:
-            pic = re.findall(i+r"</a></span>.*href=\"\/\/(.*large.*.(jpg|gif))", txt)
+            pic = re.findall(i+r'</a></span><p>[\s\S]*?<a href="//(.*large.*.(jpg|gif))" target', txt)
             like = re.findall(r"comment-like.*" + i + ".*\[<span>(.*)</span>\]", txt)
             unlike = re.findall(r"comment-unlike.*" + i + ".*\[<span>(.*)</span>\]", txt)
             data.append([i, pic[0][0], like[0], unlike[0]])
@@ -31,7 +31,7 @@ def get_pic(page):
             html=requests.get('http://'+each[1],timeout=1)
         except not req.ok:
             print("获取图片内容失败")
-        with open("D:\python study\crossin\qimo\pic\\"+each[0]+'赞'+each[2]+'反对'+each[3]+each[1][-4:],'wb') as f:
+        with open("D:\python study\crossin\Qimozuoye\pic\\"+each[0]+'赞'+each[2]+'反对'+each[3]+each[1][-4:],'wb') as f:
             f.write(html.content)
             print(each[0]+'下载完成')
 

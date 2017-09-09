@@ -16,7 +16,7 @@ def get_pic(page):
     pic=re.findall(r'(w.*large.*.(jpg|gif)).*.(jpg|gif)',txt)
     for i in pic:
         html=requests.get('http://'+i[0])
-        with open('D:\python study\crossin\qimo\pic\%s'% i[0][-36:],'wb') as f:
+        with open('D:\python study\crossin\Qimozuoye\pic\%s'% i[0][-36:],'wb') as f:
             f.write(html.content)
             print(i[0][-36:]+'下载完成')
 
